@@ -1,0 +1,39 @@
+.messageListItem{
+background-color: #cbe57c;
+width: auto;
+height: auto;
+padding: 5px 30px;
+margin: 6px;
+border-radius: 10px;
+position: relative;
+display: flex;  
+justify-content: center;
+align-items: flex-end;
+flex-direction: column;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+.messageListItem::before{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: #cbe57c;
+    transform: rotate(45deg);
+    top: 17px;
+    right: -4px;
+}
+
+.messageListItem>span{
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.messageListItem>p{
+    font-size: 12px;
+}
+
+::-webkit-scrollbar{
+    background: none;
+}

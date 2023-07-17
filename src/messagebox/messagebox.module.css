@@ -1,0 +1,12 @@
+.messagebox{
+    width: 100%;
+    height: 572px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    flex-direction: column;
+
+    z-index: 1;
+    padding: 15px;
+}

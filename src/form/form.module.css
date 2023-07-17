@@ -1,0 +1,193 @@
+.formBox{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formBox>form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+     height: 100%;
+     width: 100%;
+     position: relative;
+ 
+}
+.formBox>form>.inputBox{
+    height: auto;
+    width: 80%;
+
+ position: relative;
+ overflow: hidden;
+}
+.formBox>form>.inputBox>textarea{
+    height: auto;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px 51px 0px 16px;;
+    position: relative;
+    overflow-y: scroll;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    resize: none;
+    line-height: 1em;
+}
+
+.formBox>form>.inputBox .buttongroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    gap: 22px;
+    transition: all 0.1s ease;
+   
+    overflow: hidden;
+
+}
+
+
+.formBox>form>.inputBox .buttongroup>div >input{
+display: none;
+}
+
+.formBox>form>.inputBox .buttongroup>button{
+    border: none;
+    background: none;
+    color: #9a9797;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formBox>form> .buttonTypes{
+    position: absolute;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #fff;
+}
+
+.formBox>form> .buttonTypes .Send{
+    position: absolute;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #fff;
+    background-color: #0f0;
+    transition: all 0.5s ease;
+}
+
+.formBox>form> .buttonTypes .Speak{
+    position: absolute;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #fff;
+    background-color: #8fa40a;
+    transition: all 0.5s ease;
+}
+
+.iconsBlock{
+    width: 276px;
+    height: 260px;
+    position: absolute;
+    bottom: 11%;
+    left: 15%;
+    z-index: 3;
+ background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  padding-left: 33px;
+  padding-top: 33px;
+border-radius: 15px;
+
+transition: all 0.5s ease;
+}
+
+
+
+
+
+.iconsBlock .icons{
+        width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.iconsBlock .icons:hover{
+transform: translateY(-10px);
+cursor: pointer;
+}
+.iconsBlock .icons:nth-child(1){
+    background: linear-gradient(360deg, #653bba 50%, #2c1657  50%);
+
+}
+.iconsBlock .icons:nth-child(2){
+    background: linear-gradient(360deg, rgb(243, 65, 65) 50%, #a93232 50%);
+}
+
+.iconsBlock .icons:nth-child(3){
+    background: linear-gradient(360deg, rgb(241, 16, 185) 50%, #771341 50%);
+}
+
+.iconsBlock .icons:nth-child(4){
+    background: linear-gradient(360deg, rgb(23, 137, 229) 50%, rgb(16, 71, 117) 50%);
+}
+
+.iconsBlock .icons:nth-child(5){
+    background: linear-gradient(360deg, rgb(23, 229, 57) 50%, rgb(17, 118, 34) 50%);
+}
+
+.iconsBlock .icons:nth-child(6){
+    background: linear-gradient(360deg, rgb(229, 23, 23) 50%, rgb(131, 16, 16) 50%);
+}
+
+
+.iconsBlock .icons:nth-child(7){
+    background: linear-gradient(360deg, rgb(176, 77, 233) 50%, rgb(57, 36, 81) 50%);
+}
+
+
+.iconsBlock .icons>p{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.voices{
+    background-color: #2c1657;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
